@@ -1,0 +1,30 @@
+.formLogin{
+    display: block;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    min-width: 450px;
+    max-width: 450px;
+    box-shadow: 2px 0 20px 2px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+/* .logo{
+    justify-content: center;    
+} */
+.bag{
+    background-image:url("../asset/logo/IMG_6294-1024x683.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    -webkit-filter: blur(6px);
+    -moz-filter: blur(6px);
+    -o-filter: blur(6px);
+    -ms-filter: blur(6px);
+    filter: blur(6px);
+   
+}

@@ -1,0 +1,99 @@
+.nav {
+  background: #fffefe;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+}
+.nav-iconbar {
+  font-size: 1.2rem;
+  display: flex;
+  margin-left: 1.5rem;
+  align-self: center;
+  color: #e5890a;
+}
+.logoSystem {
+  color: #e5890a;
+  font-weight: 600;
+  text-decoration: none;
+}
+.logoSystem:hover {
+  color: #e5890a;
+  font-weight: 600;
+  text-decoration: none;
+}
+.sidebarnav {
+  background-color: #f8f5f1;
+  backdrop-filter: blur(2px);
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  z-index: 10;
+  left:-100%;
+}
+.sidebarnav.active {
+  left: 0;
+  transition: 0.1s;
+  -webkit-backdrop-filter: blur(5rem);
+  backdrop-filter: blur(5rem);
+}
+.spacefabar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 50px;
+  width: 250px;
+}
+.navicon {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #695151fe;
+}
+.navicon:hover {
+  color: #695151fe;
+}
+.menuu:hover {
+  background: #FDCB9E;
+  border-left: 4px solid #ff7315;
+  cursor: pointer;
+  color: #ff7315;
+}
+.menuu {
+    display: flex;
+}
+.SidebarLink{
+    display: flex;
+    color: #e5890a;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+    height: 60px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:400;
+}
+.SidebarLink:hover{
+    border-left: 4px solid #FF7315;
+    cursor: pointer;
+    color: #FF7315;
+}
+.SidebarLabel{
+    margin-left: 16px;
+}
+.name{
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: 20px;
+  /* background-color:rgba(255, 255, 255, 0.8); */
+}
